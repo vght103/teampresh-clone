@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/componenets/header/header.module.css"],"names":[],"mappings":"AAAA,wBACE,WACF","file":"main.9babe80c.chunk.css","sourcesContent":[".logo img {\r\n  width: 110px;\r\n}\r\n"]}

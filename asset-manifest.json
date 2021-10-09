@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/teampresh-clone/static/css/main.9babe80c.chunk.css",
+    "main.js": "/teampresh-clone/static/js/main.ce4a2133.chunk.js",
+    "main.js.map": "/teampresh-clone/static/js/main.ce4a2133.chunk.js.map",
+    "runtime-main.js": "/teampresh-clone/static/js/runtime-main.10c8f203.js",
+    "runtime-main.js.map": "/teampresh-clone/static/js/runtime-main.10c8f203.js.map",
+    "static/js/2.0771eaa3.chunk.js": "/teampresh-clone/static/js/2.0771eaa3.chunk.js",
+    "static/js/2.0771eaa3.chunk.js.map": "/teampresh-clone/static/js/2.0771eaa3.chunk.js.map",
+    "index.html": "/teampresh-clone/index.html",
+    "static/css/main.9babe80c.chunk.css.map": "/teampresh-clone/static/css/main.9babe80c.chunk.css.map",
+    "static/js/2.0771eaa3.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.0771eaa3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10c8f203.js",
+    "static/js/2.0771eaa3.chunk.js",
+    "static/css/main.9babe80c.chunk.css",
+    "static/js/main.ce4a2133.chunk.js"
+  ]
+}
