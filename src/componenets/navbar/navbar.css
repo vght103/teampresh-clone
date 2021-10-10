@@ -1,0 +1,11 @@
+.main_menu {
+  display: flex;
+}
+
+.main_menu > li {
+  margin: 0 0.5em;
+}
+
+.sub_menu {
+  display: none;
+}
