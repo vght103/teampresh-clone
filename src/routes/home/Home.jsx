@@ -8,8 +8,6 @@ import Footer from "../../componenets/footer/Footer";
 const Home = (props) => {
   return (
     <>
-      <Header />
-
       <main className="main">
         <section className="home-1 ">
           <div
@@ -217,7 +215,6 @@ const Home = (props) => {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 };

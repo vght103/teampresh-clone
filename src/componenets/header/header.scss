@@ -3,9 +3,13 @@
   cursor: pointer;
 }
 
+.navbar-nav {
+  margin-right: 1em;
+}
+
 .nav-item {
   a.nav-link {
-    font-size: 0.9rem;
+    // font-size: 0.9rem;
   }
 
   span.nav-link:after {

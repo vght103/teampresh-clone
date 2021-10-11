@@ -137,9 +137,14 @@ const Header = (props) => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/#">
-                보도자료
-              </a>
+              <Link to="#">
+                <span
+                  className="nav-link dropdown-toggle"
+                  id="navbarDropdownMenuLink"
+                >
+                  보도자료
+                </span>
+              </Link>
             </li>
           </ul>
         </div>
