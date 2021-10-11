@@ -1,0 +1,35 @@
+.footer {
+  background-color: #31353e;
+  text-align: center;
+  color: #ccc;
+  padding: 3em;
+  box-sizing: border-box !important;
+
+  .footer-box {
+    padding: 0 2em;
+    font-size: 0.9rem;
+  }
+
+  .footer-box > h6 {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+    margin-bottom: 1em;
+  }
+
+  .box-2 > p:last-child {
+    margin: 3em 0;
+  }
+  .box-3 > p > a {
+    color: #ccc !important;
+  }
+
+  .box-3 > p > a:hover {
+    text-decoration: underline !important;
+  }
+
+  .box-4 {
+    border-top: 1px solid #ccc;
+    padding-top: 1em;
+  }
+}

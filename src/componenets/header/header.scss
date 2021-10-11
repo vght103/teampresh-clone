@@ -1,0 +1,38 @@
+.logo img {
+  width: 110px;
+  cursor: pointer;
+}
+
+.nav-item {
+  a.nav-link {
+    font-size: 0.9rem;
+  }
+
+  span.nav-link:after {
+    display: none;
+  }
+
+  ul.dropdown-menu {
+    font-size: 0.9rem;
+    background-color: #f1f1f1;
+    border: none;
+    // box-shadow: 2px 4px 6px 2px #ddd;
+  }
+
+  ul.dropdown-menu a.dropdown-item {
+    padding: 0.8em;
+  }
+
+  ul.dropdown-menu a.dropdown-item:hover {
+    background-color: #ccc;
+    font-weight: 600;
+    height: 100%;
+  }
+}
+.nav-item:hover {
+  font-weight: 600;
+
+  ul.dropdown-menu {
+    display: block;
+  }
+}

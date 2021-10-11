@@ -1,16 +1,17 @@
 import React from "react";
 import Header from "../../componenets/header/Header";
-import "./home.css";
+import "./home.scss";
 import "bootstrap";
 import { Link } from "react-router-dom";
+import Footer from "../../componenets/footer/Footer";
 
 const Home = (props) => {
   return (
     <>
       <Header />
 
-      <main>
-        <section className="home-1">
+      <main className="main">
+        <section className="home-1 ">
           <div
             id="carouselExampleCaptions"
             className="carousel slide"
@@ -45,9 +46,9 @@ const Home = (props) => {
                   alt=""
                   className="d-block w-100"
                 />
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-md-block">
                   <h5>대한민국 No.1</h5>
-                  <p>Cold-Chain Platform</p>
+                  <p>Cold Chain Platform</p>
                 </div>
               </div>
               <div className="carousel-item">
@@ -56,7 +57,7 @@ const Home = (props) => {
                   alt=""
                   className="d-block w-100"
                 />
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-md-block">
                   <h5>TIMF</h5>
                   <p>Connect Freshness</p>
                 </div>
@@ -67,7 +68,7 @@ const Home = (props) => {
                   alt=""
                   className="d-block w-100"
                 />
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption d-md-block">
                   <h5>COMMERCE TREND</h5>
                   <p>신선식품 물류를 선도하는 시스템 구축</p>
                 </div>
@@ -98,7 +99,7 @@ const Home = (props) => {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-          <div className="info-text">
+          <div className="home-1-text">
             <h3>대한민국 No.1 Cold-Chain Platform</h3>
             <p>
               팀프레시는 국내 유일 Door to Door Cold Chain 통합물류 서비스를
@@ -179,19 +180,19 @@ const Home = (props) => {
             <h2>공지사항</h2>
             <div className="home-notice-box">
               <h3>
-                <Link>Notice</Link>
+                <Link to="/home">Notice</Link>
               </h3>
               <ul className="notice-list">
                 <li>
-                  <Link>[공고] 신주발행 공고(제 3자 배정방식)</Link>
+                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
                   <span className="notice_created-at">2021-09-15</span>
                 </li>
                 <li>
-                  <Link>[공고] 신주발행 공고(제 3자 배정방식)</Link>
+                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
                   <span className="notice_created-at">2021-09-08</span>
                 </li>
                 <li>
-                  <Link>[공고] 신주발행 공고(제 3자 배정방식)</Link>
+                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
                   <span className="notice_created-at">2021-08-31</span>
                 </li>
               </ul>
@@ -204,7 +205,19 @@ const Home = (props) => {
             </div>
           </div>
         </section>
+        <section className="home-4">
+          <h2>Connect</h2>
+          <div className="connect d-flex justify-content-center">
+            <span className="facebook m-5">
+              <i className="fab fa-facebook-square fa-4x"></i>
+            </span>
+            <span className="youtube m-5">
+              <i className="fab fa-youtube fa-4x"></i>
+            </span>
+          </div>
+        </section>
       </main>
+      <Footer />
     </>
   );
 };
