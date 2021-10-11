@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/teampresh-clone/static/css/main.3e0bb89c.chunk.css",
+    "main.css": "/teampresh-clone/static/css/main.2e2d28ac.chunk.css",
     "main.js": "/teampresh-clone/static/js/main.d833f51a.chunk.js",
     "main.js.map": "/teampresh-clone/static/js/main.d833f51a.chunk.js.map",
     "runtime-main.js": "/teampresh-clone/static/js/runtime-main.10c8f203.js",
@@ -10,7 +10,7 @@
     "static/js/2.f814ece7.chunk.js.map": "/teampresh-clone/static/js/2.f814ece7.chunk.js.map",
     "index.html": "/teampresh-clone/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/teampresh-clone/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.3e0bb89c.chunk.css.map": "/teampresh-clone/static/css/main.3e0bb89c.chunk.css.map",
+    "static/css/main.2e2d28ac.chunk.css.map": "/teampresh-clone/static/css/main.2e2d28ac.chunk.css.map",
     "static/js/2.f814ece7.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.f814ece7.chunk.js.LICENSE.txt",
     "static/media/companyIntro.scss": "/teampresh-clone/static/media/3_2nd_main1.4fa55765.jpg"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.10c8f203.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.f814ece7.chunk.js",
-    "static/css/main.3e0bb89c.chunk.css",
+    "static/css/main.2e2d28ac.chunk.css",
     "static/js/main.d833f51a.chunk.js"
   ]
 }
