@@ -12,7 +12,6 @@ const Map = (props) => {
 
   const handleCompanyMap = () => {
     const container = document.getElementById("companyMap");
-    console.log(container);
 
     const options = {
       center: new kakao.maps.LatLng(37.512222968891976, 127.1223602760612),
@@ -35,7 +34,6 @@ const Map = (props) => {
 
   const handleTsmap = () => {
     const container = document.getElementById("tsMap");
-    console.log(container);
 
     const options = {
       center: new kakao.maps.LatLng(37.24174009248416, 126.97686778915413),
@@ -57,7 +55,6 @@ const Map = (props) => {
   };
   const handleLfMap = () => {
     const container = document.getElementById("lfMap");
-    console.log(container);
 
     const options = {
       center: new kakao.maps.LatLng(37.47480035977688, 127.125981895243),

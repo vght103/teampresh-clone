@@ -1,5 +1,6 @@
 import React from "react";
 import { Route } from "react-router";
+import Shipping from "./routes/business/shipping/Shipping";
 import Home from "./routes/home/Home";
 import CompanyIntro from "./routes/introduce/companyIntro/CompanyIntro";
 import Customer from "./routes/introduce/customerIntro/Customer";
@@ -24,6 +25,12 @@ const RouterList = (props) => {
       <Route path="/company/map">
         <Map />
       </Route>
+      <Route path="/business/shipping">
+        <Shipping />
+      </Route>
+      <Route path="/business/cargo"></Route>
+      <Route path="/business/fu"></Route>
+      <Route path="/business/grocery"></Route>
     </>
   );
 };
