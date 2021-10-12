@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/teampresh-clone/static/css/main.043854b0.chunk.css",
-    "main.js": "/teampresh-clone/static/js/main.06658bdb.chunk.js",
-    "main.js.map": "/teampresh-clone/static/js/main.06658bdb.chunk.js.map",
+    "main.css": "/teampresh-clone/static/css/main.4b58fe0b.chunk.css",
+    "main.js": "/teampresh-clone/static/js/main.a31983e8.chunk.js",
+    "main.js.map": "/teampresh-clone/static/js/main.a31983e8.chunk.js.map",
     "runtime-main.js": "/teampresh-clone/static/js/runtime-main.10c8f203.js",
     "runtime-main.js.map": "/teampresh-clone/static/js/runtime-main.10c8f203.js.map",
     "static/css/2.0a9ec390.chunk.css": "/teampresh-clone/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.8e85ae78.chunk.js": "/teampresh-clone/static/js/2.8e85ae78.chunk.js",
-    "static/js/2.8e85ae78.chunk.js.map": "/teampresh-clone/static/js/2.8e85ae78.chunk.js.map",
+    "static/js/2.107dafba.chunk.js": "/teampresh-clone/static/js/2.107dafba.chunk.js",
+    "static/js/2.107dafba.chunk.js.map": "/teampresh-clone/static/js/2.107dafba.chunk.js.map",
     "index.html": "/teampresh-clone/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/teampresh-clone/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.043854b0.chunk.css.map": "/teampresh-clone/static/css/main.043854b0.chunk.css.map",
-    "static/js/2.8e85ae78.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.8e85ae78.chunk.js.LICENSE.txt",
+    "static/css/main.4b58fe0b.chunk.css.map": "/teampresh-clone/static/css/main.4b58fe0b.chunk.css.map",
+    "static/js/2.107dafba.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.107dafba.chunk.js.LICENSE.txt",
     "static/media/companyIntro.scss": "/teampresh-clone/static/media/3_2nd_main1.4fa55765.jpg",
     "static/media/partnerIntro.scss": "/teampresh-clone/static/media/3_2nd_main2.ac33c963.jpg",
     "static/media/customer.scss": "/teampresh-clone/static/media/3_2nd_main3.8969be30.jpg",
+    "static/media/shipping.scss": "/teampresh-clone/static/media/background1.9769cfc0.png",
     "static/media/map.scss": "/teampresh-clone/static/media/nagy-szabi-RsjQl8dLnfw-unsplash.38ebf278.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.10c8f203.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.8e85ae78.chunk.js",
-    "static/css/main.043854b0.chunk.css",
-    "static/js/main.06658bdb.chunk.js"
+    "static/js/2.107dafba.chunk.js",
+    "static/css/main.4b58fe0b.chunk.css",
+    "static/js/main.a31983e8.chunk.js"
   ]
 }
