@@ -1,7 +1,9 @@
 import React from "react";
-import { Route, Switch } from "react-router";
+import { Route } from "react-router";
 import Home from "./routes/home/Home";
 import CompanyIntro from "./routes/introduce/companyIntro/CompanyIntro";
+import Customer from "./routes/introduce/customerIntro/Customer";
+import Map from "./routes/introduce/map/Map";
 import PartnerIntro from "./routes/introduce/partnerIntro/PartnerIntro";
 
 const RouterList = (props) => {
@@ -15,6 +17,12 @@ const RouterList = (props) => {
       </Route>
       <Route path="/company/partner">
         <PartnerIntro />
+      </Route>
+      <Route path="/company/customer">
+        <Customer />
+      </Route>
+      <Route path="/company/map">
+        <Map />
       </Route>
     </>
   );

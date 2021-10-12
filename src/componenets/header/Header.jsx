@@ -55,14 +55,14 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/#">
+                  <Link className="dropdown-item" to="/company/customer">
                     고객사 소개
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/#">
+                  <Link className="dropdown-item" to="/company/map">
                     오시는 길
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
