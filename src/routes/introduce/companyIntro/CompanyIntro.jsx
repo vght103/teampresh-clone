@@ -4,7 +4,7 @@ const CompanyIntro = (props) => {
   return (
     <main>
       <section className="company-intro-1">
-        <div className="intro-img">
+        <div className="company-intro-img">
           <h2>회사소개</h2>
         </div>
         <div className="intro-text-wrap ">

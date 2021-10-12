@@ -50,9 +50,9 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/#">
+                  <Link className="dropdown-item" to="/company/partner">
                     협력사 소개
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a className="dropdown-item" href="/#">
