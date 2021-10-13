@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/teampresh-clone/static/css/main.c362cf85.chunk.css",
-    "main.js": "/teampresh-clone/static/js/main.536f9b0e.chunk.js",
-    "main.js.map": "/teampresh-clone/static/js/main.536f9b0e.chunk.js.map",
+    "main.css": "/teampresh-clone/static/css/main.d3cd08fd.chunk.css",
+    "main.js": "/teampresh-clone/static/js/main.80faa80f.chunk.js",
+    "main.js.map": "/teampresh-clone/static/js/main.80faa80f.chunk.js.map",
     "runtime-main.js": "/teampresh-clone/static/js/runtime-main.10c8f203.js",
     "runtime-main.js.map": "/teampresh-clone/static/js/runtime-main.10c8f203.js.map",
     "static/css/2.0a9ec390.chunk.css": "/teampresh-clone/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1c5bdc39.chunk.js": "/teampresh-clone/static/js/2.1c5bdc39.chunk.js",
-    "static/js/2.1c5bdc39.chunk.js.map": "/teampresh-clone/static/js/2.1c5bdc39.chunk.js.map",
+    "static/js/2.de6c9954.chunk.js": "/teampresh-clone/static/js/2.de6c9954.chunk.js",
+    "static/js/2.de6c9954.chunk.js.map": "/teampresh-clone/static/js/2.de6c9954.chunk.js.map",
     "index.html": "/teampresh-clone/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/teampresh-clone/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.c362cf85.chunk.css.map": "/teampresh-clone/static/css/main.c362cf85.chunk.css.map",
-    "static/js/2.1c5bdc39.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.1c5bdc39.chunk.js.LICENSE.txt",
+    "static/css/main.d3cd08fd.chunk.css.map": "/teampresh-clone/static/css/main.d3cd08fd.chunk.css.map",
+    "static/js/2.de6c9954.chunk.js.LICENSE.txt": "/teampresh-clone/static/js/2.de6c9954.chunk.js.LICENSE.txt",
     "static/media/companyIntro.scss": "/teampresh-clone/static/media/3_2nd_main1.4fa55765.jpg",
     "static/media/partnerIntro.scss": "/teampresh-clone/static/media/3_2nd_main2.ac33c963.jpg",
     "static/media/customer.scss": "/teampresh-clone/static/media/3_2nd_main3.8969be30.jpg",
     "static/media/shipping.scss": "/teampresh-clone/static/media/background1.9769cfc0.png",
     "static/media/cargo.scss": "/teampresh-clone/static/media/background2.6d203c56.png",
+    "static/media/fulfillment.scss": "/teampresh-clone/static/media/fu.c1242e38.jpg",
     "static/media/map.scss": "/teampresh-clone/static/media/nagy-szabi-RsjQl8dLnfw-unsplash.38ebf278.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.10c8f203.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.1c5bdc39.chunk.js",
-    "static/css/main.c362cf85.chunk.css",
-    "static/js/main.536f9b0e.chunk.js"
+    "static/js/2.de6c9954.chunk.js",
+    "static/css/main.d3cd08fd.chunk.css",
+    "static/js/main.80faa80f.chunk.js"
   ]
 }
