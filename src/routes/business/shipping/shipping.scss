@@ -32,15 +32,15 @@
 
   .img-box {
     padding: 1em;
-  }
 
-  img {
-    width: 100%;
-    margin-top: 2em;
+    img {
+      width: 100%;
+      margin-top: 2em;
+    }
   }
 }
 
-.cargo-instruction {
+.center {
   h3 {
     font-size: 1.3rem;
     font-weight: 600;
@@ -50,25 +50,30 @@
     padding: 0.8em 0;
   }
 
-  .instruction-box {
+  .center-instruction-box {
     justify-content: space-around;
     align-items: center;
 
     img {
-      // width: 40%;
-      padding: 2em;
+      padding: 1.5em;
     }
 
-    ul {
-      padding-left: 3.5em;
-    }
-    li {
-      list-style-type: disc;
+    .instruction-text {
+      ul {
+        padding: 0 2em 0 4em;
+        // margin: 2em 0 0 2em;
+      }
+
+      li {
+        list-style-type: disc;
+        margin: 0.5em 0;
+        font-size: 0.9rem;
+      }
     }
   }
 }
 
-.ability {
+.shipping-ability {
   h3 {
     font-size: 1.3rem;
     font-weight: 600;
@@ -77,27 +82,28 @@
     margin: 0.8em;
     padding: 0.8em 0;
   }
-}
 
-.instruction-box {
-  justify-content: space-around;
-  align-items: center;
+  .ability-instruction-box {
+    justify-content: space-around;
+    align-items: center;
 
-  img {
-    // width: 40%;
-    padding: 2em;
-  }
-
-  .instruction-text {
-    padding-left: 3.5em;
-
-    h4 {
-      font-size: 1.2rem;
-      font-weight: 600;
+    img {
+      padding: 2em;
     }
 
-    li {
-      list-style-type: disc;
+    .instruction-text {
+      padding-left: 2.5em;
+
+      h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      li {
+        list-style-type: disc;
+        font-size: 0.9rem;
+        margin: 0.5em 0;
+      }
     }
   }
 }
@@ -153,12 +159,12 @@
 
 @media screen and (min-width: 1500px) {
   .shipping {
-    width: 920px;
+    width: 1150px;
     margin: 0 auto;
   }
 
-  .cargo-instruction {
-    .instruction-box > img {
+  .center {
+    .center-instruction-box > img {
       width: 40%;
     }
   }
@@ -175,10 +181,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .cargo-instruction {
-    .instruction-box {
-      width: 80%;
-      margin: 0 auto;
+  .center {
+    h3 {
+      width: 50%;
+    }
+
+    .center-instruction-box {
+      img {
+        width: 80%;
+      }
     }
   }
 

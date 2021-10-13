@@ -11,7 +11,9 @@ const Shipping = (props) => {
       </div>
       <section className="shipping">
         <div className="shipping-instruction">
-          <h3>새벽배송</h3>
+          <div className="sub-title">
+            <h3>새벽배송</h3>
+          </div>
           <p>
             상품을 거래처에서 센터로 입고/검수 후 배송 권역에 맞게 배차/분류하여
             최종 소비자에게 배송하는 TimF 서비스입니다.
@@ -48,30 +50,36 @@ const Shipping = (props) => {
           </div>
         </div>
 
-        <div className="cargo-instruction">
-          <h3>물류센터 & 냉장차량</h3>
-          <div className="row instruction-box">
+        <div className="center">
+          <div className="sub-title">
+            <h3>물류센터 & 냉장차량</h3>
+          </div>
+          <div className="row center-instruction-box">
             <img
               src={process.env.PUBLIC_URL + "/images/shipping/center.jpg"}
               alt="물류센터"
               className="col-md-5"
             />
-            <ul className="col-md-6">
-              <li>주소: 경기도 수원시 권선구 오목천로 132번길 55</li>
-              <li>면적: 6611.57㎡(2,000평) 냉장, 냉동, 분류장 등</li>
-              <li>200대 차량 동시 접안 및 출차가능</li>
-              <li>입고 즉시 분류, 배송이 가능한 Cross Docking Terminal</li>
-              <li>수도권과 30~40km 근접거리 위치</li>
-              <li>수송, 배송 접근력 매우 우수</li>
-              <li>냉장 4℃ / 냉동 -22℃ 온도 유지</li>
-              <li>온도 트래킹 장치, 타코메타(Thachometer) 방식 사용</li>
-            </ul>
+            <div className="col-md-6 instruction-text">
+              <ul>
+                <li>주소: 경기도 수원시 권선구 오목천로 132번길 55</li>
+                <li>면적: 6611.57㎡(2,000평) 냉장, 냉동, 분류장 등</li>
+                <li>200대 차량 동시 접안 및 출차가능</li>
+                <li>입고 즉시 분류, 배송이 가능한 Cross Docking Terminal</li>
+                <li>수도권과 30~40km 근접거리 위치</li>
+                <li>수송, 배송 접근력 매우 우수</li>
+                <li>냉장 4℃ / 냉동 -22℃ 온도 유지</li>
+                <li>온도 트래킹 장치, 타코메타(Thachometer) 방식 사용</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div className="ability">
-          <h3>핵심역량</h3>
-          <div className="row instruction-box">
+        <div className="shipping-ability">
+          <div className="sub-title">
+            <h3>핵심역량</h3>
+          </div>
+          <div className="row ability-instruction-box">
             <img
               src={
                 process.env.PUBLIC_URL +
@@ -91,7 +99,7 @@ const Shipping = (props) => {
             </div>
           </div>
 
-          <div className="row instruction-box">
+          <div className="row ability-instruction-box">
             <img
               src={
                 process.env.PUBLIC_URL +
@@ -109,7 +117,7 @@ const Shipping = (props) => {
             </div>
           </div>
 
-          <div className="row instruction-box">
+          <div className="row ability-instruction-box">
             <img
               src={
                 process.env.PUBLIC_URL + "/images/shipping/Responsive image.jpg"
@@ -129,7 +137,9 @@ const Shipping = (props) => {
         </div>
 
         <div className="delivery-area">
-          <h3>배송지역</h3>
+          <div className="sub-title">
+            <h3>배송지역</h3>
+          </div>
 
           <div className=" delivery-box">
             <img
