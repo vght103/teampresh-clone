@@ -29,10 +29,10 @@ const Header = (props) => {
           className="collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
-          <ul className="navbar-nav">
+          <ul className="navbar-nav text-secondary">
             <li className="nav-item dropdown">
               <span
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle text-dark"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -69,7 +69,7 @@ const Header = (props) => {
 
             <li className="nav-item dropdown">
               <span
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle text-dark"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -106,7 +106,7 @@ const Header = (props) => {
 
             <li className="nav-item dropdown">
               <span
-                className="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle text-dark"
                 id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -139,7 +139,7 @@ const Header = (props) => {
             <li className="nav-item">
               <Link to="#">
                 <span
-                  className="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle text-dark"
                   id="navbarDropdownMenuLink"
                 >
                   보도자료
