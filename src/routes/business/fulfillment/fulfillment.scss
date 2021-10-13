@@ -1,0 +1,93 @@
+.fulfillment-img {
+  background: url("fu.jpg") 0 36% / cover;
+  height: 400px;
+  position: relative;
+  // background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+  }
+}
+
+.fulfillment-instruction {
+  margin: 3em 0;
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    width: 40%;
+    margin: 0.8em;
+    padding: 0.8em 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin: 1em 1em;
+  }
+
+  .img-box {
+    padding: 1em;
+
+    img {
+      width: 100%;
+      margin-top: 2em;
+    }
+  }
+}
+
+.fulfillment-ability {
+  margin: 2em 0;
+
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    width: 40%;
+    margin: 0.8em;
+    padding: 0.8em 0;
+  }
+
+  .ability-instruction-box {
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+      padding: 2em;
+    }
+
+    .instruction-text {
+      padding-left: 2.5em;
+
+      h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+
+      ul {
+        padding: 0 2em;
+      }
+
+      li {
+        list-style-type: disc;
+        font-size: 0.9rem;
+        margin: 0.5em 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .fulfillment {
+    width: 1150px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}

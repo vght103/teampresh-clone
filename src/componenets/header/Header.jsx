@@ -92,7 +92,7 @@ const Header = (props) => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/business/fu">
+                  <Link className="dropdown-item" to="/business/fulfillment">
                     풀필먼트
                   </Link>
                 </li>
