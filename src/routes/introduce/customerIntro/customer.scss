@@ -18,15 +18,19 @@
   margin: 3em 0;
 }
 
-.customer-list > li {
-  margin: 0.5em 0;
+.customer-list {
+  padding: 0;
 
-  h6 {
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
+  li {
+    margin: 0.5em 0;
 
-  img {
-    margin: 0.5em;
+    h6 {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    img {
+      margin: 0.5em;
+    }
   }
 }

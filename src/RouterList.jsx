@@ -9,7 +9,10 @@ import CompanyIntro from "./routes/introduce/companyIntro/CompanyIntro";
 import Customer from "./routes/introduce/customerIntro/Customer";
 import Map from "./routes/introduce/map/Map";
 import PartnerIntro from "./routes/introduce/partnerIntro/PartnerIntro";
-import Notice from "./routes/notice/Notice";
+import Employment from "./routes/notice-menu/employment/Employment";
+import Notice from "./routes/notice-menu/notice/Notice";
+import ServiceInfo from "./routes/notice-menu/serviceInfo/ServiceInfo";
+import Pressrelease from "./routes/pressrelease/Pressrelease";
 
 const RouterList = (props) => {
   return (
@@ -41,8 +44,17 @@ const RouterList = (props) => {
       <Route path="/business/grocery">
         <Grocery />
       </Route>
-      <Route path="/notice">
+      <Route path="/notice-menu/notice">
         <Notice />
+      </Route>
+      <Route path="/notice-menu/employment">
+        <Employment />
+      </Route>
+      <Route path="/notice-menu/serviceinfo">
+        <ServiceInfo />
+      </Route>
+      <Route path="/notice-menu/pressrelease">
+        <Pressrelease />
       </Route>
     </>
   );

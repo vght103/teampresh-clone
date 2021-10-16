@@ -6,7 +6,7 @@ const Cargo = (props) => {
   const smSize = useMediaQuery({ query: "(max-width: 576px)" });
 
   return (
-    <main>
+    <main className="main">
       <div className="cargo-img">
         <h2>화물주선</h2>
       </div>
@@ -39,31 +39,29 @@ const Cargo = (props) => {
             )}
           </div>
         </div>
+      </section>
 
-        <div className="cargo-ability">
-          <div className="sub-title">
-            <h3>핵심역량</h3>
-          </div>
-          <div className="row ability-instruction-box">
-            <img
-              src={process.env.PUBLIC_URL + "/images/cargo/planning.jpg"}
-              alt="Cold Chain"
-              className="col-md-5"
-            />
-            <div className="col-md-6 instruction-text">
-              <h4>운영</h4>
-              <ul>
-                <li>냉장차량-화주사 매칭 시스템으로 기업 부담 감소</li>
-                <li>
-                  배송 매니저 교육을 통해 각 화주사에 맞게 안정적으로 배송
-                </li>
-                <li>
-                  정직하고 직관적인 운송 정산체계 운영과 여러 제휴 혜택으로 배송
-                  매니저 DB구축
-                </li>
-                <li>충분한 양의 DB를 확보해 수요 증가 등의 이슈에 대처 가능</li>
-              </ul>
-            </div>
+      <section className="cargo-ability">
+        <div className="sub-title">
+          <h3>핵심역량</h3>
+        </div>
+        <div className="row ability-instruction-box">
+          <img
+            src={process.env.PUBLIC_URL + "/images/cargo/planning.jpg"}
+            alt="Cold Chain"
+            className="col-md-5"
+          />
+          <div className="col-md-6 instruction-text">
+            <h4>운영</h4>
+            <ul>
+              <li>냉장차량-화주사 매칭 시스템으로 기업 부담 감소</li>
+              <li>배송 매니저 교육을 통해 각 화주사에 맞게 안정적으로 배송</li>
+              <li>
+                정직하고 직관적인 운송 정산체계 운영과 여러 제휴 혜택으로 배송
+                매니저 DB구축
+              </li>
+              <li>충분한 양의 DB를 확보해 수요 증가 등의 이슈에 대처 가능</li>
+            </ul>
           </div>
         </div>
       </section>

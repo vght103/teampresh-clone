@@ -119,25 +119,25 @@ const Header = (props) => {
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <Link className="dropdown-item" to="/notice">
+                  <Link className="dropdown-item" to="/notice-menu/notice">
                     공지사항
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/#">
+                  <Link className="dropdown-item" to="/notice-menu/employment">
                     인재채용
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="/#">
+                  <Link className="dropdown-item" to="/notice-menu/serviceinfo">
                     서비스소개
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
 
             <li className="nav-item">
-              <Link to="#">
+              <Link to="/notice-menu/pressrelease">
                 <span
                   className="nav-link dropdown-toggle text-dark"
                   id="navbarDropdownMenuLink"

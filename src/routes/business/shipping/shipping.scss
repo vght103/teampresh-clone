@@ -1,3 +1,7 @@
+.main > section {
+  margin: 2em 0;
+}
+
 .shipping-img {
   background: url("background1.png") 0 60% / cover;
   height: 400px;
@@ -158,6 +162,7 @@
 }
 
 @media screen and (min-width: 1500px) {
+  .main,
   .shipping {
     width: 1150px;
     margin: 0 auto;

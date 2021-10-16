@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2em 0;
+  margin: 2em 0 4em;
 
   .location {
     margin: 2em 0;
@@ -32,7 +32,24 @@
   }
 
   .map {
-    width: 500px;
+    width: 650px;
     height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .map-container {
+    height: 100%;
+
+    .location {
+      width: 350px;
+      height: 300px;
+      padding: 2em 0;
+
+      .map {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 }
