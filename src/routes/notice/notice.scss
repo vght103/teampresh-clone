@@ -1,0 +1,50 @@
+.notice {
+  width: 70%;
+  margin: 0 auto;
+  padding: 3em;
+  font-size: 0.9rem;
+
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+  }
+}
+
+.table {
+  .t-head {
+    background-color: #e9ecef;
+    border-bottom: 2px solid #e9ecef;
+    th {
+      font-weight: 600;
+      border: none;
+      text-align: center;
+    }
+  }
+
+  .t-body {
+    th {
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .notice-no {
+      font-weight: 600;
+    }
+
+    .notice-link {
+      text-align: start;
+
+      a {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+  .notice {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 0.8rem;
+  }
+}
