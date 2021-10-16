@@ -114,7 +114,7 @@ const Grocery = (props) => {
             <li className="process-li">
               <div>
                 <span className="ico">
-                  <i class="fas fa-sign-in-alt fa-2x"></i>
+                  <i className="fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>입고</span>
                 <p>주문상품 센터입고</p>
@@ -123,7 +123,7 @@ const Grocery = (props) => {
             <li className="process-li ">
               <div>
                 <span className="ico">
-                  <i class="fas fa-sign-in-alt fa-2x"></i>
+                  <i className="fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>검수/검품</span>
                 <p>상품의 수량/품질확인</p>
@@ -132,7 +132,7 @@ const Grocery = (props) => {
             <li className="process-li ">
               <div>
                 <span className="ico">
-                  <i class=" fas fa-sign-in-alt fa-2x"></i>
+                  <i className=" fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>이동/보관</span>
                 <p>창고 및 분류장으로 이동/보관</p>
@@ -141,7 +141,7 @@ const Grocery = (props) => {
             <li className="process-li ">
               <div>
                 <span className="ico">
-                  <i class="fas fa-sign-in-alt fa-2x"></i>
+                  <i className="fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>분류/피킹</span>
                 <p>출고예정상품에 대해 분류 및 창고 내 pick-up</p>
@@ -150,7 +150,7 @@ const Grocery = (props) => {
             <li className="process-li ">
               <div>
                 <span className="ico">
-                  <i class="fas fa-sign-in-alt fa-2x"></i>
+                  <i className="fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>검수/상차</span>
                 <p>2차검수 및 배송차량 상품 적재</p>
@@ -159,7 +159,7 @@ const Grocery = (props) => {
             <li className="process-li ">
               <div>
                 <span className="ico">
-                  <i class="fas fa-sign-in-alt fa-2x"></i>
+                  <i className="fas fa-sign-in-alt fa-2x"></i>
                 </span>
                 <span>배송/추적</span>
                 <p>배송차량 실시간 위치/온도 관제</p>
