@@ -2,6 +2,7 @@ import React from "react";
 import { Route } from "react-router";
 import Cargo from "./routes/business/cargo/Cargo";
 import Fulfillment from "./routes/business/fulfillment/Fulfillment";
+import Grocery from "./routes/business/grocery/Grocery";
 import Shipping from "./routes/business/shipping/Shipping";
 import Home from "./routes/home/Home";
 import CompanyIntro from "./routes/introduce/companyIntro/CompanyIntro";
@@ -36,7 +37,9 @@ const RouterList = (props) => {
       <Route path="/business/fulfillment">
         <Fulfillment />
       </Route>
-      <Route path="/business/grocery"></Route>
+      <Route path="/business/grocery">
+        <Grocery />
+      </Route>
     </>
   );
 };

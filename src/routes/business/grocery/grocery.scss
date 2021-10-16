@@ -1,0 +1,141 @@
+.grocery-img {
+  background: url("background3.png") 0 60% / cover;
+  height: 400px;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 700;
+  }
+}
+
+.grocery-instruction {
+  margin: 3em 0;
+
+  .grocery-sub {
+    margin: 2em 0;
+
+    .sub-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      border-bottom: 2px solid black;
+      width: 40%;
+      margin: 0.8em;
+      padding: 0.8em 0;
+    }
+
+    .sub-p {
+      font-size: 0.9rem;
+      margin: 1em 1em;
+    }
+
+    .img-box {
+      padding: 1em;
+
+      img {
+        width: 100%;
+        margin-top: 2em;
+      }
+    }
+  }
+
+  .grocery-process {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+
+    .process-li {
+      width: 11rem;
+      display: flex;
+      text-align: center;
+      // margin: 0 0.5em;
+
+      div {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 0.5em;
+
+        .ico {
+          color: #30336b;
+          margin-right: 1em;
+        }
+
+        p {
+          font-size: 0.8rem;
+          font-weight: 400;
+          margin: 0.5em 0;
+        }
+      }
+    }
+
+    .process-li::after {
+      content: "→";
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #808080;
+      position: relative;
+      top: 20%;
+      left: 5%;
+    }
+
+    .process-li:last-child::after {
+      content: "";
+      margin: 0;
+    }
+  }
+}
+
+.grocery-sub-imgs {
+  .sub-imgs-ul {
+    text-align: center;
+    width: 100%;
+    padding: 0 0.2em;
+    margin: 0;
+
+    li {
+      margin: 1em 0;
+
+      img {
+        width: 160px;
+      }
+
+      .sub-p {
+        margin-top: 1em;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.service {
+  padding: 0 1em;
+
+  .service-li {
+    span {
+      font-weight: 600;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .grocery {
+    width: 1150px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 768px) {
+  .sub-imgs-ul {
+    li {
+      width: 50%;
+    }
+  }
+}
