@@ -198,20 +198,6 @@ const Home = (props) => {
             <h2>보도자료</h2>
             <div className="home-time_news-box">
               <h3>TimF News</h3>
-              <ul className="notice-list">
-                <li>
-                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
-                  <span className="notice_created-at">2021-09-15</span>
-                </li>
-                <li>
-                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
-                  <span className="notice_created-at">2021-09-08</span>
-                </li>
-                <li>
-                  <Link to="/home">[공고] 신주발행 공고(제 3자 배정방식)</Link>
-                  <span className="notice_created-at">2021-08-31</span>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
